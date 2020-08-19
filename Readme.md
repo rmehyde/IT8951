@@ -9,6 +9,20 @@ on the Waveshare E-Paper screens, with Python wrappers for easy use.
 
 The project is in its initial stage and under active development.
 
+## Installation
+
+### Library
+Ensure you have [bcm2835](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/README.md) installed.
+Build the library with `make`. include the directory on your library path or copy to a shared location, e.g.
+`sudo cp libIT8951.so /usr/lib`.
+
+### WebViewer
+Requires Python 3, Firefox and selenium. Then install python requriements:
+```sh
+cd epaper
+pip3 install -r requirements.txt
+``` 
+
 ## Usage
 A WebViewer is included which allows you to view a dynamic webpage.
 For example (see [Sunrise](https://github.com/rmehyde/sunrise)):
