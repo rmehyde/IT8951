@@ -1,7 +1,7 @@
 
 from ctypes import cdll, Structure, c_uint16, c_uint8
 
-clib = cdll.LoadLibrary("/home/pi/projects/IT8951-remote/cmake-build-release-remote/libIT8951.so")
+clib = cdll.LoadLibrary("libIT8951.so")
 
 # get build dir and add to library path
 
