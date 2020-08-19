@@ -13,7 +13,12 @@ The project is in its initial stage and under active development.
 
 ### Library
 Ensure you have [bcm2835](https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/README.md) installed.
-Build the library with `make`. include the directory on your library path or copy to a shared location, e.g.
+Build the library with:
+```
+cmake ./
+make
+```
+Then include the directory on your library path or copy to a shared location, e.g.
 `sudo cp libIT8951.so /usr/lib`.
 
 ### WebViewer
